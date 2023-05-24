@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.main-container{
+    max-width: 700px;
+    margin: auto;
+}
+nav{
+    display: grid;
+    margin: 15px 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 48px;
+    align-items: center;
+}
+.logo {
+    justify-self: center;
+}
+.arrow{
+    justify-self: left;
+}
+.bell{
+    justify-self: end;
+}
+.name h3{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #1D232B;
+}
+.div2{
+    width: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    left: calc(50% - 160px/2 - 92px);
+    top: 64px;
+}
+.title1{
+    display: grid;
+    grid-template-columns: auto 60px;
+    align-items: center;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+    
+}
+.name h5{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: #919EB6;
+    }
+.name-2 h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #919EB6;
+}
+.name-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    
+}
+.name-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 75px;
+    margin-top: -30px;
+}
+.btn-1{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 12px;
+
+background: #01B99F;
+border-radius: 999px;
+
+}
+a.btn-1{
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+/* identical to box height, or 12px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.01em;
+
+/* Font/White */
+text-decoration: none;
+color: #FFFFFF;
+}
+.head-1{
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+color: #1D232B;
+margin-bottom: 16px;
+}
+.head2{
+font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+letter-spacing: -0.01em;
+color: #313B49;
+}
+.btns{
+    box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 5px 12px;
+
+
+
+
+background: #F7F8FA;
+
+border: 0.5px solid #CED3DE;
+border-radius: 999px;
+
+}
+a.hash-btn{
+
+height: 12px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 100%;
+display: flex;
+align-items: center;
+text-decoration: none;
+color: #5A6B87;
+}
+.main-btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    
+}
+.like-main{
+    display: grid;
+    grid-template-columns: 39px 39px 31px 31px;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: #F7F8FA 2px solid;
+}
+.like{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+width: 39px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color:  #919EB6;
+}
+.comment{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 5px;
+width: 39px;
+height: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #919EB6;
+}
+
+.cmt-box{
+    margin-left: 45px;
+}
+.like-main2{
+    display: grid;
+    grid-template-columns:  31px 31px;
+    gap: 10px;
+    justify-self: center;
+    
+}
+.like3{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 9.34884px;
+color:  #919EB6;
+}
+.head3{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.01em;
+    color: #313B49;
+    margin-left: 45px;
+    }
+.bot-m{
+    box-sizing: border-box;
+display: grid;
+grid-template-columns: auto 1fr 1fr;
+align-items: center;
+padding: 8px 16px 10px;
+gap: 16px;
+border-top:  #F7F8FA 2px solid;
+margin-top: 20px;
+height: 42px;
+}
+.bot-t{
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color:  #AFB9CA;
+}
+.bot-t2{
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color:  #AFB9CA;
+text-align: end;
+}
